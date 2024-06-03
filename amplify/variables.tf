@@ -7,7 +7,7 @@ variable "repository" {
 
 variable "oauth_token" {
   description = "token de acesso"
-  default     = "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"
+  default     = ${{ secrets.token }}
 }
 
 variable "domain_name" {
