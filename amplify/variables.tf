@@ -7,7 +7,7 @@ variable "repository" {
 
 variable "oauth_token" {
   description = "token de acesso"
-  default     = "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"
+  default     = "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"
 }
 
 variable "domain_name" {
