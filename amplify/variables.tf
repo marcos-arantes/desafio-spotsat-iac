@@ -11,6 +11,6 @@ variable "oauth_token" {
 }
 
 variable "domain_name" {
-  description = "Se quiser colocar um dominio customizado"
+  description = "Pode colocar um dominio customizado"
   default     = "exemplo.com.br"
 }
